@@ -1,0 +1,37 @@
+
+<!--<button class="btn btn-dark btn -sm mt-4" [routerLink]="'add'">Ajouter</button>-->
+
+<table class="table table-bordered">
+  <thead>
+      <tr>
+          <th scope="col">#</th>
+          <th scope="col">Nom</th>
+          <th scope="col">Prix Unitaire</th>
+          <th scope="col">Quantité</th>
+          <th class="text-center">Action</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr *ngFor="let prod of products">
+        <th scope="row">{{prod.id}}</th>
+        <td>{{prod.name}}</td>
+        <td>{{prod.price}}</td>
+        <td>{{prod.quantity}}</td>
+        
+        <td class="text-center">
+          <div class="row">
+            <div class="col">
+              <button class="btn btn-primary btn-sm" routerLink="show/{{prod.id}}">Afficher</button>
+            </div>
+            <div class="col">
+              <button class="btn btn-danger btn-sm" (click)="deleteData(prod.id)">Supprimer</button>
+              <span class="success-message" *ngIf="successMessageId === prod.id">Produit supprimé avec succès !</span>
+            </div>
+            <div class="col">
+              <button class="btn btn-warning btn-sm mx-2" routerLink="update/{{prod.id}}">Mise à jour</button>
+            </div>
+          </div>
+        </td>
+      </tr>
+  </tbody>
+</table>

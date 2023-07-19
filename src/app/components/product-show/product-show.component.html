@@ -1,0 +1,25 @@
+<div *ngIf="product" class="text-center">
+  <h2>Détails du produit</h2>
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Nom</th>
+        <th scope="col">Prix Unitaire</th>
+        <th scope="col">Quantité</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">{{ product.id }}</th>
+        <td>{{ product.name }}</td>
+        <td>{{ product.price }}</td>
+        <td>{{ product.quantity }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="text-center">
+  <button class="btn btn-danger btn-sm mt-4" routerLink="/">Retour</button>
+</div>
