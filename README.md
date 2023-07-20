@@ -1,6 +1,8 @@
 <h1>Test Technique Selsebil Trabelsi - Frontend</h1>
 
-<p>Ce dépôt contient la partie frontend du projet Test Technique Selsebil Trabelsi, l'autre Ce dépôt contient la partie backend du projet Test Technique Selsebil Trabelsi. Il s'agit d'une application développée avec le framework Angular, permettant de gérer les produits en interagissant avec l'API backend.</p>
+<p>Ce dépôt contient la partie frontend du projet Test Technique Selsebil Trabelsi, l'autre Ce dépôt contient la partie backend du projet Test Technique Selsebil Trabelsi. Il s'agit d'une application développée avec le framework Angular, permettant de gérer les produits en interagissant avec l'API backend.</p><br>
+
+<p>N'hésitez pas à ouvrir une <a href="https://github.com/selsebil82/Test_Technique_Selsebil_Trabelsi_backend">Parite BackEnd</a> pour consulter le projet backend en laravel. Bonne utilisation !</p><br>
 
 <h2>Installation</h2>
 
@@ -47,4 +49,7 @@ ng serve -o
   <li>Rechercher des produits en fonction de leur nom.</li>
 </ul>
 
+<h2>Auteur</h2>
+
+<p>Ce projet a été réalisé par Selsebil Trabelsi.</p>
 <p>N'hésitez pas à ouvrir une <a href="https://github.com/selsebil82/Test_Technique_Selsebil_Trabelsi_frontend/issues">issue</a> si vous rencontrez des problèmes ou si vous avez des suggestions d'amélioration. Bonne utilisation !</p>
