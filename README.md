@@ -1,6 +1,6 @@
 <h1>Test Technique Selsebil Trabelsi - Frontend</h1>
 
-<p>Ce dépôt contient la partie frontend du projet Test Technique Selsebil Trabelsi. Il s'agit d'une application développée avec le framework Angular, permettant de gérer les produits en interagissant avec l'API backend.</p>
+<p>Ce dépôt contient la partie frontend du projet Test Technique Selsebil Trabelsi, l'autre Ce dépôt contient la partie backend du projet Test Technique Selsebil Trabelsi. Il s'agit d'une application développée avec le framework Angular, permettant de gérer les produits en interagissant avec l'API backend.</p>
 
 <h2>Installation</h2>
 
