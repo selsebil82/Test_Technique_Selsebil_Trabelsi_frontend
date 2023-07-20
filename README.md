@@ -48,6 +48,9 @@ ng serve -o
   <li>Supprimer un produit de la base de données en fonction de son ID.</li>
   <li>Rechercher des produits en fonction de leur nom.</li>
 </ul>
+<h2>Vidéo démonstratif</h2>
+
+[Uploading Screencast from 2023-07-20 11-51-37.webm…]()
 
 <h2>Auteur</h2>
 
