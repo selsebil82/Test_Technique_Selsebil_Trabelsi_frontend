@@ -1,5 +1,8 @@
 
 <!--<button class="btn btn-dark btn -sm mt-4" [routerLink]="'add'">Ajouter</button>-->
+<div class="mb-3">
+  <input type="text" class="form-control" placeholder="Rechercher un produit" [(ngModel)]="searchQuery" (input)="onSearchChange()">
+</div>
 
 <table class="table table-bordered">
   <thead>
@@ -17,7 +20,7 @@
         <td>{{prod.name}}</td>
         <td>{{prod.price}}</td>
         <td>{{prod.quantity}}</td>
-        
+
         <td class="text-center">
           <div class="row">
             <div class="col">
